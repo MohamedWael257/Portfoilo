@@ -5,9 +5,9 @@ const Projects = () => {
         {
             id: 1,
             title: 'Movies',
-            tools: ['React.js', 'Javascript', 'JSX', 'CSS', 'React-Bootstrap', 'Redux toolkit', 'JSON', 'REST API'],
+            tools: ['HTML', 'CSS', 'Javascript'],
             role: "Frontend Developer",
-            desc: "This project is an e-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is built using JavaScript, React.js, JSX, CSS, React-Bootstrap, React-Router-Dom, Redux Toolkit, and is fully responsive.",
+            desc: "This project is an e-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/movies-website",
             demo: "https://mohamedwael257.github.io/movies-website/",
             ImageUrl: "http://localhost:3000/src/assets/img/projects/movies.jpg"
@@ -15,9 +15,9 @@ const Projects = () => {
         {
             id: 2,
             title: 'Kaffe',
-            tools: ['React.js', 'Javascript', 'JSX', 'CSS', 'React-Bootstrap', 'Redux toolkit', 'JSON', 'REST API'],
+            tools: ['HTML', 'CSS', 'Javascript', 'bootstrap'],
             role: "Frontend Developer",
-            desc: "This project is an e-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is built using JavaScript, React.js, JSX, CSS, React-Bootstrap, React-Router-Dom, Redux Toolkit, and is fully responsive.",
+            desc: "This project is an Kaffe website for selling  products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/Kaffe",
             demo: "https://mohamedwael257.github.io/Kaffe/",
             ImageUrl: "http://localhost:3000/src/assets/img/projects/kaffe.jpg"
@@ -25,9 +25,9 @@ const Projects = () => {
         {
             id: 3,
             title: 'Cruds',
-            tools: ['React.js', 'Javascript', 'JSX', 'CSS', 'React-Bootstrap', 'Redux toolkit', 'JSON', 'REST API'],
-            role: "Frontend Developer",
-            desc: "This project is an e-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is built using JavaScript, React.js, JSX, CSS, React-Bootstrap, React-Router-Dom, Redux Toolkit, and is fully responsive.",
+            tools: ['React', 'JSX', 'React Redux', 'CSS', 'Javascript'],
+            role: "React Developer",
+            desc: "This project is an Cruds website for product management system. Key features include product listings, add-to-crud , remove-from-crud ,update product and search(by category or title) . the product data is managed using Redux Toolkit. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/Crudsreact",
             demo: "https://mohamedwael257.github.io/Crudsreact/",
             ImageUrl: "http://localhost:3000/src/assets/img/projects/cruds.jpg"
@@ -35,19 +35,19 @@ const Projects = () => {
         {
             id: 4,
             title: 'E-Commerce',
-            tools: ['React.js', 'Javascript', 'JSX', 'CSS', 'React-Bootstrap', 'Redux toolkit', 'JSON', 'REST API'],
-            role: "Frontend Developer",
-            desc: "This project is an e-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is built using JavaScript, React.js, JSX, CSS, React-Bootstrap, React-Router-Dom, Redux Toolkit, and is fully responsive.",
+            tools: ['React', 'JSX', 'React Redux', 'React Bootstrap', 'React icons', 'CSS', 'Javascript', 'Firebase', 'REST API'],
+            role: "React Developer",
+            desc: "This project is an E-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using Firebase. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/E-commerceReact",
             demo: "https://mohamedwael257.github.io/E-commerceReact/",
             ImageUrl: "http://localhost:3000/src/assets/img/projects/e-commerce.jpg"
         },
         {
             id: 5,
-            title: 'Chat App',
-            tools: ['React.js', 'Javascript', 'JSX', 'CSS', 'React-Bootstrap', 'Redux toolkit', 'JSON', 'REST API'],
-            role: "Frontend Developer",
-            desc: "This project is an e-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is built using JavaScript, React.js, JSX, CSS, React-Bootstrap, React-Router-Dom, Redux Toolkit, and is fully responsive.",
+            title: 'WhatsApp',
+            tools: ['React', 'JSX', 'React Redux', 'React Bootstrap', 'React icons', 'CSS', 'Tailwind', 'Javascript', 'Firebase', 'REST API'],
+            role: "React Developer",
+            desc: "This project is an WhatsApp website for Chating with people . Key features include Use authentication firebase for login or register, Use firebase storage to can upload profile image, By using firebase database Show all users, Chat with any user, Delete messages, Add story, Delete story and The store is deleted automatically after 24 hours, the product data is managed using Firebase.The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/Chat_App",
             demo: "https://chatapp-6581b.web.app/",
             ImageUrl: "http://localhost:3000/src/assets/img/projects/chatapp.jpg"
@@ -55,9 +55,9 @@ const Projects = () => {
         {
             id: 6,
             title: 'Spotify',
-            tools: ['React.js', 'Javascript', 'JSX', 'CSS', 'React-Bootstrap', 'Redux toolkit', 'JSON', 'REST API'],
-            role: "Frontend Developer",
-            desc: "This project is an e-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is built using JavaScript, React.js, JSX, CSS, React-Bootstrap, React-Router-Dom, Redux Toolkit, and is fully responsive.",
+            tools: ['React', 'JSX', 'React Redux', 'React Bootstrap', 'React icons', 'CSS', 'Tailwind', 'Javascript',],
+            role: "React Developer",
+            desc: "This project is an e-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/spotify",
             demo: "https://spotify-puce-one.vercel.app/",
             ImageUrl: "http://localhost:3000/src/assets/img/projects/spotify.jpg"
@@ -65,9 +65,9 @@ const Projects = () => {
         {
             id: 7,
             title: 'Mern Chat',
-            tools: ['React.js', 'Javascript', 'JSX', 'CSS', 'React-Bootstrap', 'Redux toolkit', 'JSON', 'REST API'],
-            role: "Frontend Developer",
-            desc: "This project is an e-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is built using JavaScript, React.js, JSX, CSS, React-Bootstrap, React-Router-Dom, Redux Toolkit, and is fully responsive.",
+            tools: ['React', 'JSX', 'React Redux', 'React Bootstrap', 'React icons', 'CSS', 'Tailwind', 'Javascript', 'Nodejs', 'MongoDB', 'Express', 'REST API'],
+            role: "Mern Stack Developer",
+            desc: "This project is an Mern Chat website for Chating with people like whatsApp . Key features include Use authentication  Nodejs for login or register, Use MongoDB storage to can upload profile image, By using MongoDB database Show all users, Chat with any user, Delete messages, the product data is managed using Backend Server.The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/Mern-Chat",
             demo: "https://mern-chat-9yjj.onrender.com/",
             ImageUrl: "http://localhost:3000/src/assets/img/projects/mernchat.jpg"
@@ -75,9 +75,9 @@ const Projects = () => {
         {
             id: 8,
             title: 'E-learnning',
-            tools: ['React.js', 'Javascript', 'JSX', 'CSS', 'React-Bootstrap', 'Redux toolkit', 'JSON', 'REST API'],
+            tools: ['HTML', 'CSS', 'Javascript', 'Bootstrap'],
             role: "Frontend Developer",
-            desc: "This project is an e-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is built using JavaScript, React.js, JSX, CSS, React-Bootstrap, React-Router-Dom, Redux Toolkit, and is fully responsive.",
+            desc: "This project is an e-learnning website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/E-learnnig",
             demo: "https://mohamedwael257.github.io/E-learnnig/",
             ImageUrl: "http://localhost:3000/src/assets/img/projects/e-learnning.jpg"
@@ -85,9 +85,9 @@ const Projects = () => {
         {
             id: 9,
             title: 'Connect Four Game',
-            tools: ['React.js', 'Javascript', 'JSX', 'CSS', 'React-Bootstrap', 'Redux toolkit', 'JSON', 'REST API'],
+            tools: ['HTML', 'CSS', 'Javascript', 'OOP'],
             role: "Frontend Developer",
-            desc: "This project is an e-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is built using JavaScript, React.js, JSX, CSS, React-Bootstrap, React-Router-Dom, Redux Toolkit, and is fully responsive.",
+            desc: "This project is an e-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/Connect-Four-Game",
             demo: "https://mohamedwael257.github.io/Connect-Four-Game/",
             ImageUrl: "http://localhost:3000/src/assets/img/projects/connectfour.jpg"
@@ -95,9 +95,9 @@ const Projects = () => {
         {
             id: 10,
             title: 'Calculator',
-            tools: ['React.js', 'Javascript', 'JSX', 'CSS', 'React-Bootstrap', 'Redux toolkit', 'JSON', 'REST API'],
+            tools: ['HTML', 'CSS', 'Javascript'],
             role: "Frontend Developer",
-            desc: "This project is an e-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is built using JavaScript, React.js, JSX, CSS, React-Bootstrap, React-Router-Dom, Redux Toolkit, and is fully responsive.",
+            desc: "This project is an e-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/Calculator",
             demo: "https://mohamedwael257.github.io/Calculator/",
             ImageUrl: "http://localhost:3000/src/assets/img/projects/calculator.jpg"
@@ -105,9 +105,9 @@ const Projects = () => {
         {
             id: 11,
             title: 'Hangman',
-            tools: ['React.js', 'Javascript', 'JSX', 'CSS', 'React-Bootstrap', 'Redux toolkit', 'JSON', 'REST API'],
+            tools: ['HTML', 'CSS', 'Javascript'],
             role: "Frontend Developer",
-            desc: "This project is an e-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is built using JavaScript, React.js, JSX, CSS, React-Bootstrap, React-Router-Dom, Redux Toolkit, and is fully responsive.",
+            desc: "This project is an e-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/Hangman",
             demo: "https://mohamedwael257.github.io/Hangman/",
             ImageUrl: "http://localhost:3000/src/assets/img/projects/hangman.jpg"
@@ -115,9 +115,9 @@ const Projects = () => {
         {
             id: 12,
             title: 'mern lava',
-            tools: ['React.js', 'Javascript', 'JSX', 'CSS', 'React-Bootstrap', 'Redux toolkit', 'JSON', 'REST API'],
-            role: "Frontend Developer",
-            desc: "This project is an e-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is built using JavaScript, React.js, JSX, CSS, React-Bootstrap, React-Router-Dom, Redux Toolkit, and is fully responsive.",
+            tools: ['React', 'JSX', 'React Redux', 'React Bootstrap', 'React icons', 'CSS', 'Tailwind', 'Javascript', 'Nodejs', 'MongoDB', 'Express', 'REST API'],
+            role: "Mern Stack Developer",
+            desc: "This project is an Mern Car Wash Services and Store Website . My Project is For on-demand car washing services. Whether you're at home, work, or anywhere , our app brings the car wash to you Additionally, we offer marketplace. Most challenges : Client faces difficulty as he has to buy or book a service for his car from sink place . So we provide Booking and Store to save time for the client. We are also come to receive the car, repair it, and return to client . We also offer live chat if the client have any proble . The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/mern_lava",
             demo: "https://mern-lava.onrender.com/",
             ImageUrl: "http://localhost:3000/src/assets/img/projects/mernlava.jpg"
@@ -125,9 +125,9 @@ const Projects = () => {
         {
             id: 13,
             title: 'Cafe',
-            tools: ['React.js', 'Javascript', 'JSX', 'CSS', 'React-Bootstrap', 'Redux toolkit', 'JSON', 'REST API'],
+            tools: ['HTML', 'CSS', 'Javascript'],
             role: "Frontend Developer",
-            desc: "This project is an e-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is built using JavaScript, React.js, JSX, CSS, React-Bootstrap, React-Router-Dom, Redux Toolkit, and is fully responsive.",
+            desc: "This project is an Cafe website for selling products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/Cafe",
             demo: "https://mohamedwael257.github.io/Cafe/",
             ImageUrl: "http://localhost:3000/src/assets/img/projects/cafe.jpg"
@@ -135,9 +135,9 @@ const Projects = () => {
         {
             id: 14,
             title: 'StandBlog',
-            tools: ['React.js', 'Javascript', 'JSX', 'CSS', 'React-Bootstrap', 'Redux toolkit', 'JSON', 'REST API'],
+            tools: ['HTML', 'CSS', 'Javascript', 'Bootstrap'],
             role: "Frontend Developer",
-            desc: "This project is an e-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is built using JavaScript, React.js, JSX, CSS, React-Bootstrap, React-Router-Dom, Redux Toolkit, and is fully responsive.",
+            desc: "This project is an e-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/StandBlog",
             demo: "https://mohamedwael257.github.io/StandBlog/",
             ImageUrl: "http://localhost:3000/src/assets/img/projects/standblog.jpg"

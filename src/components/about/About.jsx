@@ -12,11 +12,15 @@ const About = () => {
                         <div className="card-me">
                             <h2>About Me</h2>
                             <p>
-                                My name is Mohamed Wael, and I am passionate about front-end development. Although I graduated with a
-                                degree in
-                                Sociology from the Faculty of Arts at Cairo University, I found my interest leaning towards the tech field
-                                and decided to change my career path. To make this career shift, I completed a Diploma in Computer Science
-                                at the Faculty of Graduate Studies for Statistical Research, Cairo University.
+                                My name is Mohamed Wael, and I am passionate about Mern Stack development. Although
+                                I graduated with a degree in Computer Science from facualty of Computers and Informations at Tana University,
+                                I found my interest leaning towards the tech field and decided to change my career path.
+                                To make this career shift, I completed a Diploma in Computer Science
+                                at the Faculty of Computers and Informations Studies for Statistical Research, Tanta University.
+                                As MERN my ability is to integrate frontend and backend technologies to create dynamic web applications In React Skilled to developing Responsive UI.
+                                In Nodejs Strong scalable server-side application In Express Proficient in building flexible and secure backend application In Mongodb Experienced in
+                                working with it for database In problem solving Ability to troubleshoot and resolve complex technical challenges These skills enable me to build scalable,
+                                efficient,and web applications using MERN Stack Development
                             </p>
                         </div>
                     </div>
