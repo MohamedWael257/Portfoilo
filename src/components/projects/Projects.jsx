@@ -185,7 +185,7 @@ const Projects = () => {
                                 </div>
                                 <div className="wrapper-project">
                                     <div className="grid items-center lg:grid-cols-[2fr_1.5fr] grid-cols-1 gap-5 px-10">
-                                        <code className='lg:order-first order-last'>
+                                        <code className='lg:order-first order-last' style={{ wordBreak: "break-word" }}>
                                             <div >
                                                 <span className="text-purple">const</span>
                                                 <span className="text-white">project</span>
