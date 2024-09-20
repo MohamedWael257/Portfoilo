@@ -7,7 +7,7 @@ const About = () => {
                 <div className="heading">
                     <h1>About Me</h1>
                 </div>
-                <div className="grid lg:grid-cols-2 sm:grid-cols-1 gap-5 px-4 sm:mt-6 mt-0 lg:px-10">
+                <div className="grid lg:grid-cols-2 grid-cols-1 gap-5 px-10 mt-5 lg:mt-0">
                     <div >
                         <div className="card-me">
                             <h2>About Me</h2>

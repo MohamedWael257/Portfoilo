@@ -1,5 +1,6 @@
 import React, { Fragment, useEffect, useRef, useState } from 'react'
 import './Projects.css'
+import projectImage1 from '../../assets/img/projects/filmlane.jpg'
 const Projects = () => {
     let projects = [
         {
@@ -10,7 +11,7 @@ const Projects = () => {
             desc: "This project is an Filmlane website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/Filmlane",
             demo: "https://mohamedwael257.github.io/Filmlane/",
-            ImageUrl: "http://localhost:3000/src/assets/img/projects/filmlane.jpg"
+            ImageUrl: projectImage1
         },
         {
             id: 2,
@@ -183,8 +184,8 @@ const Projects = () => {
                                     <p>{project.title}</p>
                                 </div>
                                 <div className="wrapper-project">
-                                    <div className="grid items-center lg:grid-cols-[2fr_1.5fr] sm:grid-cols-1 gap-5 px-10">
-                                        <code className='lg:order-first sm:order-last'>
+                                    <div className="grid items-center lg:grid-cols-[2fr_1.5fr] grid-cols-1 gap-5 px-10">
+                                        <code className='lg:order-first order-last'>
                                             <div >
                                                 <span className="text-purple">const</span>
                                                 <span className="text-white">project</span>
@@ -253,7 +254,7 @@ const Projects = () => {
                                             </div>
                                             <div className="text-gray m-l-20">{'}'}</div>
                                         </code>
-                                        <div className="img lg:order-last sm:order-first">
+                                        <div className="img lg:order-last order-first">
                                             <img src={project.ImageUrl} alt="nest-ecommerce" />
                                         </div>
                                     </div>
