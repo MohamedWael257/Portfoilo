@@ -1,0 +1,23 @@
+.navbar-light .navbar-brand {
+    color: var(--main-color);
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.navbar-light .navbar-toggler i {
+    color: var(--main-color);
+    font-size: 30px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    display: block;
+    padding: 41px;
+    transition: 0.3s;
+    color: var(--color-white);
+    text-transform: uppercase;
+    transition: all 0.3s linear;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: var(--main-color);
+}

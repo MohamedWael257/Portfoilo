@@ -1,0 +1,118 @@
+.education {
+    background-image: url('../../assets/img/hero.svg');
+    background-size: cover;
+}
+
+.wrapper-cards {
+    margin: 50px 0;
+}
+
+.education .card-education {
+    color: var(--color-white);
+    width: 100%;
+    height: 260px;
+    border: 1px solid #2a2e5a;
+    box-shadow: 16px 14px 20px #0000008c;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.education .card-education::before,
+.education .card-education::after {
+    --angle: 0deg;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: conic-gradient(from var(--angle), var(--main-color), #833ab4 120deg, var(--second-color) 100%);
+    border-radius: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    animation: animate 3s linear infinite;
+    transition: opacity 0.3s linear;
+    opacity: 0;
+}
+
+.education .card-education::before {
+    filter: blur(1.5rem);
+    opacity: 0;
+}
+
+.card-education .wrapper-card {
+    position: absolute;
+    inset: 4px;
+    background-color: var(--background-color);
+    box-shadow: inset 20px 20px 20px #0000008c;
+    border-radius: 10px;
+    padding: 20px;
+    z-index: 1;
+}
+
+@keyframes animate {
+    from {
+        --angle: 0deg;
+    }
+
+    to {
+        --angle: 360deg
+    }
+}
+
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+
+.card-education:hover::before,
+.card-education:hover::after {
+    opacity: 0.6;
+}
+
+.education .card-education {
+    color: var(--color-white);
+}
+
+.education .education-duration {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    color: var(--second-color);
+    font-size: 15px;
+}
+
+.education .education-details {
+    display: flex;
+    align-items: center;
+}
+
+.education .education-details i {
+    color: var(--main-color);
+    font-size: 25px;
+}
+
+.education .education-details .education-info {
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+@media screen and (max-width:510px) {
+    .education .card-education {
+        height: 220px;
+        padding: 0px;
+    }
+
+    .education .education-details {
+        flex-direction: column;
+    }
+
+    .education .education-details .education-info {
+        padding-left: 0px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+}

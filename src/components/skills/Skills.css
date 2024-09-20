@@ -1,0 +1,76 @@
+.skills .skills-slider {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.skills .wrapper-skills {
+    display: inline-flex;
+    padding: 50px 0;
+    animation: slide 15s linear infinite;
+    transition: animation 0.5s;
+}
+
+.skills .wrapper-skills .skill {
+    border: 1px solid var(--color-border);
+    margin: 0 20px;
+    width: 160PX;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 25px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.skills .wrapper-skills .skill::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+    width: 90%;
+    height: 1px;
+    background: linear-gradient(90deg, #25213b 20%, #8b5cf6 52%, #25213b 81%);
+}
+
+.skills .wrapper-skills .skill:hover::after {
+    background: unset;
+}
+
+.skills .wrapper-skills .skill:hover {
+    border: 1px solid #8b5cf6;
+    transform: scale(1.1);
+}
+
+.skills .wrapper-skills:hover {
+    animation-play-state: paused;
+}
+
+.skills .wrapper-skills .skill .img {
+    padding: 10px 0;
+}
+
+.skills .wrapper-skills .skill .img img {
+    width: 50px;
+    height: 50px;
+}
+
+.skills .wrapper-skills .skill .name-skill p {
+    color: var(--color-white);
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10PX 0 0 0;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
