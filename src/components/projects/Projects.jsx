@@ -1,6 +1,20 @@
 import React, { Fragment, useEffect, useRef, useState } from 'react'
 import './Projects.css'
-import projectImage1 from '../../assets/img/projects/filmlane.jpg'
+import filmlaneImage from '../../assets/img/projects/filmlane.jpg'
+import kaffeImage from '../../assets/img/projects/kaffe.jpg'
+import crudsImage from '../../assets/img/projects/cruds.jpg'
+import e_commerceImage from '../../assets/img/projects/e-commerce.jpg'
+import chatappImage from '../../assets/img/projects/chatapp.jpg'
+import spotifyImage from '../../assets/img/projects/spotify.jpg'
+import mernchatImage from '../../assets/img/projects/mernchat.jpg'
+import e_learnningImage from '../../assets/img/projects/e-learnning.jpg'
+import connectfourImage from '../../assets/img/projects/connectfour.jpg'
+import calculatorImage from '../../assets/img/projects/calculator.jpg'
+import hangmanImage from '../../assets/img/projects/hangman.jpg'
+import mernlavaImage from '../../assets/img/projects/mernlava.jpg'
+import cafeImage from '../../assets/img/projects/cafe.jpg'
+import standblogImage from '../../assets/img/projects/standblog.jpg'
+
 const Projects = () => {
     let projects = [
         {
@@ -11,7 +25,7 @@ const Projects = () => {
             desc: "This project is an Filmlane website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/Filmlane",
             demo: "https://mohamedwael257.github.io/Filmlane/",
-            ImageUrl: projectImage1
+            ImageUrl: filmlaneImage
         },
         {
             id: 2,
@@ -21,7 +35,7 @@ const Projects = () => {
             desc: "This project is an Kaffe website for selling  products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/Kaffe",
             demo: "https://mohamedwael257.github.io/Kaffe/",
-            ImageUrl: "http://localhost:3000/src/assets/img/projects/kaffe.jpg"
+            ImageUrl: kaffeImage
         },
         {
             id: 3,
@@ -31,7 +45,7 @@ const Projects = () => {
             desc: "This project is an Cruds website for product management system. Key features include product listings, add-to-crud , remove-from-crud ,update product and search(by category or title) . the product data is managed using Redux Toolkit. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/Crudsreact",
             demo: "https://mohamedwael257.github.io/Crudsreact/",
-            ImageUrl: "http://localhost:3000/src/assets/img/projects/cruds.jpg"
+            ImageUrl: crudsImage
         },
         {
             id: 4,
@@ -41,7 +55,7 @@ const Projects = () => {
             desc: "This project is an E-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using Firebase. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/E-commerceReact",
             demo: "https://mohamedwael257.github.io/E-commerceReact/",
-            ImageUrl: "http://localhost:3000/src/assets/img/projects/e-commerce.jpg"
+            ImageUrl: e_commerceImage
         },
         {
             id: 5,
@@ -51,7 +65,7 @@ const Projects = () => {
             desc: "This project is an WhatsApp website for Chating with people . Key features include Use authentication firebase for login or register, Use firebase storage to can upload profile image, By using firebase database Show all users, Chat with any user, Delete messages, Add story, Delete story and The store is deleted automatically after 24 hours, the product data is managed using Firebase.The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/Chat_App",
             demo: "https://chatapp-6581b.web.app/",
-            ImageUrl: "http://localhost:3000/src/assets/img/projects/chatapp.jpg"
+            ImageUrl: chatappImage
         },
         {
             id: 6,
@@ -61,7 +75,7 @@ const Projects = () => {
             desc: "This project is an Spotify website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/spotify",
             demo: "https://spotify-puce-one.vercel.app/",
-            ImageUrl: "http://localhost:3000/src/assets/img/projects/spotify.jpg"
+            ImageUrl: spotifyImage
         },
         {
             id: 7,
@@ -71,7 +85,7 @@ const Projects = () => {
             desc: "This project is an Mern Chat website for Chating with people like whatsApp . Key features include Use authentication  Nodejs for login or register, Use MongoDB storage to can upload profile image, By using MongoDB database Show all users, Chat with any user, Delete messages, the product data is managed using Backend Server.The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/Mern-Chat",
             demo: "https://mern-chat-9yjj.onrender.com/",
-            ImageUrl: "http://localhost:3000/src/assets/img/projects/mernchat.jpg"
+            ImageUrl: mernchatImage
         },
         {
             id: 8,
@@ -81,7 +95,7 @@ const Projects = () => {
             desc: "This project is an e-learnning website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/E-learnnig",
             demo: "https://mohamedwael257.github.io/E-learnnig/",
-            ImageUrl: "http://localhost:3000/src/assets/img/projects/e-learnning.jpg"
+            ImageUrl: e_learnningImage
         },
         {
             id: 9,
@@ -91,7 +105,7 @@ const Projects = () => {
             desc: "This project is an Connect Four Game website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/Connect-Four-Game",
             demo: "https://mohamedwael257.github.io/Connect-Four-Game/",
-            ImageUrl: "http://localhost:3000/src/assets/img/projects/connectfour.jpg"
+            ImageUrl: connectfourImage
         },
         {
             id: 10,
@@ -101,7 +115,7 @@ const Projects = () => {
             desc: "This project is an Calculator website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/Calculator",
             demo: "https://mohamedwael257.github.io/Calculator/",
-            ImageUrl: "http://localhost:3000/src/assets/img/projects/calculator.jpg"
+            ImageUrl: calculatorImage
         },
         {
             id: 11,
@@ -111,7 +125,7 @@ const Projects = () => {
             desc: "This project is an Hangman website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/Hangman",
             demo: "https://mohamedwael257.github.io/Hangman/",
-            ImageUrl: "http://localhost:3000/src/assets/img/projects/hangman.jpg"
+            ImageUrl: hangmanImage
         },
         {
             id: 12,
@@ -121,7 +135,7 @@ const Projects = () => {
             desc: "This project is an Mern Car Wash Services and Store Website . My Project is For on-demand car washing services. Whether you're at home, work, or anywhere , our app brings the car wash to you Additionally, we offer marketplace. Most challenges : Client faces difficulty as he has to buy or book a service for his car from sink place . So we provide Booking and Store to save time for the client. We are also come to receive the car, repair it, and return to client . We also offer live chat if the client have any proble . The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/mern_lava",
             demo: "https://mern-lava.onrender.com/",
-            ImageUrl: "http://localhost:3000/src/assets/img/projects/mernlava.jpg"
+            ImageUrl: mernlavaImage
         },
         {
             id: 13,
@@ -131,7 +145,7 @@ const Projects = () => {
             desc: "This project is an Cafe website for selling products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/Cafe",
             demo: "https://mohamedwael257.github.io/Cafe/",
-            ImageUrl: "http://localhost:3000/src/assets/img/projects/cafe.jpg"
+            ImageUrl: cafeImage
         },
         {
             id: 14,
@@ -141,7 +155,7 @@ const Projects = () => {
             desc: "This project is an StandBlog website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/StandBlog",
             demo: "https://mohamedwael257.github.io/StandBlog/",
-            ImageUrl: "http://localhost:3000/src/assets/img/projects/standblog.jpg"
+            ImageUrl: standblogImage
         },
 
     ]
