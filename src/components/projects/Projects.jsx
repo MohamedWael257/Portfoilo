@@ -4,13 +4,13 @@ const Projects = () => {
     let projects = [
         {
             id: 1,
-            title: 'Movies',
+            title: 'Filmlane',
             tools: ['HTML', 'CSS', 'Javascript'],
             role: "Frontend Developer",
-            desc: "This project is an e-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
-            repo: "https://github.com/MohamedWael257/movies-website",
-            demo: "https://mohamedwael257.github.io/movies-website/",
-            ImageUrl: "http://localhost:3000/src/assets/img/projects/movies.jpg"
+            desc: "This project is an Filmlane website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
+            repo: "https://github.com/MohamedWael257/Filmlane",
+            demo: "https://mohamedwael257.github.io/Filmlane/",
+            ImageUrl: "http://localhost:3000/src/assets/img/projects/filmlane.jpg"
         },
         {
             id: 2,
@@ -57,7 +57,7 @@ const Projects = () => {
             title: 'Spotify',
             tools: ['React', 'JSX', 'React Redux', 'React Bootstrap', 'React icons', 'CSS', 'Tailwind', 'Javascript',],
             role: "React Developer",
-            desc: "This project is an e-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
+            desc: "This project is an Spotify website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/spotify",
             demo: "https://spotify-puce-one.vercel.app/",
             ImageUrl: "http://localhost:3000/src/assets/img/projects/spotify.jpg"
@@ -87,7 +87,7 @@ const Projects = () => {
             title: 'Connect Four Game',
             tools: ['HTML', 'CSS', 'Javascript', 'OOP'],
             role: "Frontend Developer",
-            desc: "This project is an e-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
+            desc: "This project is an Connect Four Game website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/Connect-Four-Game",
             demo: "https://mohamedwael257.github.io/Connect-Four-Game/",
             ImageUrl: "http://localhost:3000/src/assets/img/projects/connectfour.jpg"
@@ -97,7 +97,7 @@ const Projects = () => {
             title: 'Calculator',
             tools: ['HTML', 'CSS', 'Javascript'],
             role: "Frontend Developer",
-            desc: "This project is an e-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
+            desc: "This project is an Calculator website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/Calculator",
             demo: "https://mohamedwael257.github.io/Calculator/",
             ImageUrl: "http://localhost:3000/src/assets/img/projects/calculator.jpg"
@@ -107,7 +107,7 @@ const Projects = () => {
             title: 'Hangman',
             tools: ['HTML', 'CSS', 'Javascript'],
             role: "Frontend Developer",
-            desc: "This project is an e-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
+            desc: "This project is an Hangman website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/Hangman",
             demo: "https://mohamedwael257.github.io/Hangman/",
             ImageUrl: "http://localhost:3000/src/assets/img/projects/hangman.jpg"
@@ -137,7 +137,7 @@ const Projects = () => {
             title: 'StandBlog',
             tools: ['HTML', 'CSS', 'Javascript', 'Bootstrap'],
             role: "Frontend Developer",
-            desc: "This project is an e-commerce website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
+            desc: "This project is an StandBlog website for selling food products. Key features include product listings, add-to-cart and remove-from-cart functionalities, and user authentication (sign-up and login). The sign-up and login functionalities are implemented without a backend, and the product data is managed using JSON Server. The project is fully responsive.",
             repo: "https://github.com/MohamedWael257/StandBlog",
             demo: "https://mohamedwael257.github.io/StandBlog/",
             ImageUrl: "http://localhost:3000/src/assets/img/projects/standblog.jpg"
