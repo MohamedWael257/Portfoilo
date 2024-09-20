@@ -15,13 +15,13 @@ const Banner = () => {
                             <p>I'm <span>Mohamed Wael</span>,<br /> a <span>Mern stack Developer</span></p>
                         </div>
                         <div className="icons flex">
-                            <Link to="https://www.linkedin.com/in/Mohamed Wael-taha/">
+                            <Link to="https://www.linkedin.com/in/mohamed-wael8b359a27a">
                                 <i><FaLinkedin /></i>
                             </Link>
                             <Link to="https://github.com/MohamedWael257">
                                 <i><FaGithub /></i>
                             </Link>
-                            <Link to="https://www.facebook.com/share/iYfge85MXndssbXF/?mibextid=qi2Omg">
+                            <Link to="https://www.facebook.com/mohamedwael450?mibextid=ZbWKwL">
                                 <i><FaFacebook /></i>
                             </Link>
                         </div>
@@ -33,8 +33,7 @@ const Banner = () => {
                                 </a>
                             </button>
                             <button>
-                                <Link to="https://drive.google.com/file/d/10tOLiCnfVQDe1vn1uGWEAVOcXY0kEo5U/view?usp=sharing">
-                                    GET RESUME
+                                <Link to='https://drive.google.com/file/d/1c9-2AfGb1pm-FVeGtBeALKnIFQCHA_3M/view?usp=drive_link'>                                GET RESUME
                                     <i><FaArrowCircleDown className='inline-block' size={25} /></i>
                                 </Link>
                             </button>
