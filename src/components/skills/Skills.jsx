@@ -8,7 +8,7 @@ const Skills = () => {
         let skillsHeight = ourSkills.current.offsetHeight;
         let screenHeight = window.innerHeight;
         let scrollaction = window.pageYOffset;
-        if (scrollaction > (skillsContainTop + (1 * skillsHeight) - screenHeight)) {
+        if (scrollaction > (skillsContainTop + (0.3* skillsHeight) - screenHeight)) {
             setActive(true)
         } else {
             setActive(false)
